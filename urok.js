@@ -1,35 +1,34 @@
-//72Ramazanov
-"use strict";
+// const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?');
 
-// let a = document.querySelector('h1');
+// const personalMovieDB = {
+//     count: 1,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
 
+// for (let i = 0; i < 2; i++) {
+//     const x = prompt('Один из последних просмотренных фильмов?'),
+//         y = +prompt('На сколько оцените его?');
 
-// a.classList.add('blue', 'font')
-// let a = document.querySelector('body');
-// var n = prompt("Хотите сменить тему на черный").toLowerCase;
+//     if (x != null && y != null & x != '' && y !='' && x.length < 50) {
+//         personalMovieDB.movies[x] = y;
+//         console.log('done');
+//     } else {
+//         console.log('error');
+//         i--;
+//     }
+// }
 
-// if (n === 'да' || 'yes'){
-//     console.log(a.classList.add('red'))
+// if (numberOfFilms < 10) {
+//     console.log("Просмотрено довольно мало фильмов ");
+// } else if (numberOfFilms > 10 && numberOfFilms > 30){
+//     console.log("Вы классический зритель");
+// } else if (numberOfFilms >= 30) {
+//     console.log('Вы киноман');
 // } else {
-    
+//     console.log('Произошла ошибка');
 // }
 
-// let img = document.querySelector('img')
-
-// function rnr(){
-//     console.log(img.getAttribute('src'))
-//     img.setAttribute('src', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLyY-2yaYYEESJi82asMlVsk43nywVXjuTLw&usqp=CAU')
-//     console.log(img.getAttribute('src'));
-// }
-
-// setTimeout(rnr,2000)
-
-// console.log(document.documentElement);
-// console.log(document.head);
-// console.log(document.body);
-
-// console.log(document.body.hasChildNodes());
-
-// for(let i of document.body.childNodes) {
-//     console.log(i)
-// }
+// console.log(personalMovieDB);
